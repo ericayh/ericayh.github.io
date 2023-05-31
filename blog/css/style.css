@@ -51,8 +51,8 @@
 /* IMPORTED FONTS */
 
 @font-face {
-    font-family: "ultra";
-    src: url('../fonts/serif/ultra-regular.ttf') format('truetype');
+    font-family: "rozhaone";
+    src: url('../fonts/serif/rozhaone-regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -86,11 +86,13 @@ h1 {
     font-size: 3rem;
     letter-spacing: 0.25rem;
     transform: rotate(-5deg);
+    text-align: center;
+    text-shadow:#888 0 -2px;
 }
 
 .highlight {
     display: inline-block;
-    font-family: ultra, Georgia, serif;
+    font-family: rozhaone, Georgia, serif;
     border: 1px solid black;
     padding: 1rem 2rem;
     border-radius: 0.3rem;
@@ -103,7 +105,7 @@ h1 {
 
 button {
     display: inline-block;
-    font-family: ultra, Georgia, serif;
+    font-family: rozhaone, Georgia, serif;
     border: 1px solid black;
     padding: 1rem 1rem;
     border-radius: 0.75rem;
@@ -130,10 +132,15 @@ body {
     min-width:56.25rem;
 }
 
+.expand {
+    font-size: 5px;
+}
+
 /* LAYOUT */
 
 header {
     padding: 0.5rem 0rem 1rem 0rem;
+
 }
 
 nav {
@@ -203,6 +210,12 @@ figure {
 a {
     text-decoration: none;
 }
+div {
+    transform: rotate(4deg);
+    font-family: roboto, Arial, sans-serif;
+    font-size: 1.3rem;
+    color:#262626
+}
 
 nav a{
     display: inline-block;
@@ -223,11 +236,11 @@ footer {
     justify-content: space-between;
     margin: 3% 2%;
 }
-  
-  footer p {
+
+footer p {
     margin: 0;
 }
   
-  footer p.attribution {
+  .attribution {
     text-align: right;
 }
