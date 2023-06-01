@@ -234,15 +234,17 @@ nav {
 
 /* FOOTER */
 footer {
-    display: flex;
-    justify-content: space-between;
-    margin: 3% 2%;
+    display:flex;
 }
 
-footer p {
-    margin: 0;
+.copyright {
+    text-align: left;
+    font-family: lato, Arial, sans-serif;
 }
-  
-  .attribution {
+
+.attribution {
     text-align: right;
+    font-family: roboto, Arial, sans-serif;
+    padding-left: 15rem;
+    margin: 0;
 }
