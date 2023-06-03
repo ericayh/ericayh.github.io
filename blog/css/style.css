@@ -109,13 +109,14 @@ button {
     display: inline-block;
     font-family: rozhaone, Georgia, serif;
     border: 1px solid black;
-    padding: 1rem 1rem;
+    padding: 0.5rem 0.5rem;
     border-radius: 0.75rem;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
     color: #e7e2db;
     background-color: #3A7180;
     box-shadow: 5px 5px 4px -1px #888;
+    font-size: 1.3rem;
 }
 
 /* GENERAL SETUP AND DEFAULTS */
@@ -239,6 +240,7 @@ footer {
 
 .copyright {
     text-align: left;
+    white-space: nowrap;
     font-family: lato, Arial, sans-serif;
 }
 
@@ -247,4 +249,20 @@ footer {
     font-family: roboto, Arial, sans-serif;
     padding-left: 15rem;
     margin: 0;
+}
+
+/* Normal link styles */
+a {
+    color: blue;
+    text-decoration: none;
+}
+  
+  /* Link styles on hover */
+  a:hover {
+    text-decoration: underline;
+}
+  
+  /* Link styles for visited links */
+  a:visited {
+    color:#732C2C;
 }
